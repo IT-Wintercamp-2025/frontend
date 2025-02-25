@@ -1,3 +1,3 @@
 # frontend
 The website and interface
-juhu
+Hier entsteht das Frontend für ein Ticketsystem. 
