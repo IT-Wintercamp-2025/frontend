@@ -24,7 +24,9 @@ footer { background-color: var(--footer-color);
 .Logo {
 float: left;}
 
-main {display: flex;}
+main {display: flex;
+          flex-direction: column;
+        }
 
 .Vorstellung, .Funktionen {padding: 5px;
                       font-size: 14px;
@@ -34,4 +36,4 @@ main {display: flex;}
 
 .Logo {height: 100px;
             width: 120px;
-          float: left;}
+            float: left;}
