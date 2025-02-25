@@ -1,0 +1,25 @@
+:root { --background-color: #dfd3c3;
+    --header-color: #c7b198;
+    --footer-color:#596e79;
+
+}
+body { height: 100vh;
+    background-color: var(--background-color);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+header {background-color: var(--header-color);
+      padding: 10px;
+      display: flex;
+
+}
+
+footer { background-color: var(--footer-color);
+     padding: 50px;
+
+}
+.Logo {
+float: left;}
