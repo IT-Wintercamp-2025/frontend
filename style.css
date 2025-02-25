@@ -21,8 +21,6 @@ footer { background-color: var(--footer-color);
      padding: 50px;
 
 }
-.Logo {
-float: left;}
 
 main {display: flex;
           flex-direction: column;
@@ -37,7 +35,8 @@ main {display: flex;
                     }
 
 .Logo {height: 50px;
-            width: 75px;
-            float: left;}
+            width: 85px;
+            float: left;
+           margin-right: 10px;}
 
 h1, h3 {padding: 0; margin: 0;}
