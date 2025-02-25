@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anmelden</title>
+    <link href="login.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,15 +13,20 @@
 
     <main>
     <div class="login-container">
-        <h2>SignIn</h2>
+        <div class="titel">
+            <h2>SignIn</h2>
+        </div>
+        
         <form action="#" method="POST">
             <label for="username">Benutzername:</label>
             <input type="text" id="username" name="username" placeholder="Benutzername" required>
 
             <label for="password">Passwort:</label>
             <input type="password" id="password" name="password" placeholder="Passwort" required>
-
-            <input type="submit" value="Einloggen">
+            
+                <input type="submit" id="button" value="Einloggen">
+          
+            
         </form>
     </div>
     </main>
