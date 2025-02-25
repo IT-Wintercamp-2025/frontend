@@ -26,13 +26,12 @@ float: left;}
 
 main {display: flex;}
 
-.Vorstellung {padding: 5px;
+.Vorstellung, .Funktionen {padding: 5px;
                       font-size: 14px;
-                      border: solid black 4px;
+                      border: solid var(--footer-color) 4px;
                       margin: 10px;
                     }
 
-.Funktionen {padding: 5px;
-  font-size: 14px;
-  border: solid black 4px;
-  margin: 10px;}
+.Logo {height: 100px;
+            width: 120px;
+          float: left;}
