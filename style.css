@@ -1,7 +1,7 @@
-:root { --background-color: #dfd3c3;
+:root { --background-color: #f0ece2;
     --header-color: #c7b198;
     --footer-color:#596e79;
-
+    --fillin-color: #dfd3c3;
 }
 body { height: 100vh;
     background-color: var(--background-color);
@@ -26,12 +26,14 @@ float: left;}
 
 main {display: flex;
           flex-direction: column;
+          padding: 50px;
         }
 
 .Vorstellung, .Funktionen {padding: 5px;
                       font-size: 14px;
                       border: solid var(--footer-color) 4px;
                       margin: 10px;
+                      background-color: var(--fillin-color);
                     }
 
 .Logo {height: 100px;
