@@ -114,7 +114,6 @@ nav {
 }
 
 #a {
-  float: left; /*allign left*/
   font-size: 16px;
   color: white;
   text-align: center;
@@ -156,10 +155,11 @@ nav {
 .dropdown-content a {
   float: none; /*float: none;*/
   color: black;
-  padding: 0px 25px;
+  padding: 0px 10px;
   text-decoration: none;
   display: block;
   text-align: left;
+  padding-right: 0px;
 }
 
 .dropdown-content #a:hover {
