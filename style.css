@@ -53,17 +53,34 @@ hr {margin: 10px 0;
   padding: 2px 0;
   }
 
-#LoginBtn {padding: 4px 8px;
-                  background-color: var(--footer-color);
-                  border: solid black 2px;
-                  border-radius: 4px;
-                  float: right;
-              }
+#LoginBtn {
+  border-radius: 8px;
+  border: solid var(--footer-color); 
+  padding-top: 4px;
+  padding-bottom: 4px; 
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  float: right;
+  margin-right: 16px;
+}
 
-a {text-decoration: none;
-  color: rgb(90, 89, 89);
-  }
+#LoginBtn:hover{
+  transition: all 0.2s; 
+  background-color: var(--header-color);
+  border: solid var(--background-color);
+}
 
-#loginLink {color: white;}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
-#registrierenLink {color: gray;}
+#loginLink {
+  color: rgb(0, 0, 0);
+}
+
+
+#registrierenLink {
+  color: rgb(0, 0, 0);
+}
