@@ -1,42 +1,69 @@
 :root { --background-color: #f0ece2;
-    --header-color: #c7b198;
-    --footer-color:#596e79;
-    --fillin-color: #dfd3c3;
+  --header-color: #c7b198;
+  --footer-color:#596e79;
+  --fillin-color: #dfd3c3;
 }
+
 body { height: 100vh;
-    background-color: var(--background-color);
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  background-color: var(--background-color);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 header {background-color: var(--header-color);
-      padding: 20px;
-      display: flex;
-
+    padding: 20px 50px;
+    display: flex;
+   justify-content: space-between; /*Dinger auseinander*/
+   align-items: center; /*Objekte Mittig*/
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 footer { background-color: var(--footer-color);
-     padding: 50px;
+   padding: 50px;
 
 }
 
 main {display: flex;
-          flex-direction: column;
-          padding: 50px;
-        }
+       flex-direction: column;
+        padding: 50px;
+      }
+.Info {display: flex;
+      }
 
-.Vorstellung, .Funktionen {padding: 5px;
-                      font-size: 14px;
-                      border: solid var(--footer-color) 4px;
-                      margin: 10px;
-                      background-color: var(--fillin-color);
-                    }
+.Vorstellung, .Funktionen, .Login {padding: 5px;
+                    font-size: 16px;
+                    border: solid var(--footer-color) 4px;
+                    margin: 20px;
+                    background-color: var(--fillin-color);
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
+                  }
 
-.Logo {height: 50px;
-            width: 85px;
-            float: left;
-           margin-right: 10px;}
+#Logo {height: 50px;
+          width: 85px;
+          float: left;
+         margin-right: 10px;}
 
 h1, h3 {padding: 0; margin: 0;}
+
+hr {margin: 10px 0;
+  padding: 2px 0;
+  }
+
+#LoginBtn {padding: 4px 8px;
+                  background-color: var(--footer-color);
+                  border: solid black 2px;
+                  border-radius: 4px;
+                  float: right;
+              }
+
+a {text-decoration: none;
+  color: rgb(90, 89, 89);
+  }
+
+#loginLink {color: white;}
+
+#registrierenLink {color: gray;}
