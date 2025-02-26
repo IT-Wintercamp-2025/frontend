@@ -1,0 +1,20 @@
+:root { --background-color: #f0ece2;
+    --header-color: #c7b198;
+    --footer-color:#596e79;
+    --fillin-color: #dfd3c3;
+  }
+  
+  .container {
+    width: 70%;
+    min-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .kanban-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+  }
