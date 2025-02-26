@@ -33,9 +33,17 @@ main {display: flex;
 .Info {display: flex;
       }
 
+.logo-container {
+  height: 200px;
+}
 
-#Logo {height: 60px;
-          width: 90px;
+.Impressum {
+  color: var(--fillin-color);
+}
+
+
+#Logo {height: 200px;
+          width: 150px;
           float: left;
          margin-right: 10px;}
 
