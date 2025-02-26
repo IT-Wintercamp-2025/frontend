@@ -1,11 +1,10 @@
-:root {
-    --background-color: #f0ece2;
+:root { --background-color: #f0ece2;
     --header-color: #c7b198;
-    --footer-color: #596e79;
+    --footer-color:#596e79;
     --fillin-color: #dfd3c3;
-}
-
-body {
+  }
+  
+body { 
     height: 100vh;
     background-color: var(--background-color);
     margin: 0;

@@ -75,6 +75,7 @@ a {
   padding: 0.8rem 1.7rem;
   border-radius: 0.5rem;
   margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 .kanban-board {
@@ -90,6 +91,7 @@ a {
   min-width: 14rem;
   min-height: 4.5rem;
   border-radius: 0.3rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 #unbearbeitet,
