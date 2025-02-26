@@ -37,8 +37,8 @@ html, body {
 #password{
     border-radius: 8px;
     border: none;
-    margin: 4px;
-    margin-left: 43px;
+    margin: 0px;
+    margin-left: 117px;
     padding: 6px;
 }
 
@@ -50,8 +50,8 @@ html, body {
   cursor: pointer;
   padding-left: 16px;
   padding-right: 16px;
-
 }
+
 
 #button:hover{
     transition: all 0.2s; 
@@ -72,5 +72,6 @@ html, body {
     justify-content: center;
 }
 
+#passworttext {margin-top: 500px;}
 
 
