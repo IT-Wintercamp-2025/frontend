@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Neues Ticket verfassen</h1> <br>
+    <label for="Kategorie">Kategorie:</label>
+
+    <select name="Kategorie" id="Kategorie">
+        <option value="Softwarefehler">Softwarefehler</option>
+        <option value="Hardwarefehler">Hardwarefehler</option>
+        <option value="Störung">Störung</option>
+
+    </select>
+    <label for="Gruppe">Gruppe:</label>
+
+    <select name="Gruppe" id="Guppe">
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        <option value="Infrastruktur">Infrastruktur</option>
+    </select>
+    <h2>Betreff</h2>
+
+    <form action="/action_page.php">
+        <input type="text" id="fname" name="fname">
+
+        <p><label for="Beschreibun">Beschreibung:</label></p>
+        <textarea id="Beschreibung" name="Bescheibung" rows="4" cols="40"></textarea> <br>
+        <button type="submit">Absenden</button>
+    </form>
+
+    
+
+
+        
+</body>
+
+</html>
