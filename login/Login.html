@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Einloggen</title>
-    <link href="SignUp.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Einloggen</title>
+  <link href="./login.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <main>
+  <main>
     <div class="login-container">
-        <div class="titel">
-            <h2>SignIn</h2>
+      <div class="titel">
+        <h2>SignIn</h2>
+      </div>
+      <form action="#" method="POST">
+        <label for="username">Benutzername:</label>
+        <input type="text" id="username" name="username" placeholder="Benutzername" required>
+
+        <label for="password" id="passworttext">Passwort:</label>
+          <input type="password" id="password" name="password" placeholder="Passwort" required>
+        <div class="submit">
+          <input type="submit" id="button" value="Regestrieren">
         </div>
-        
-        <form action="#" method="POST">
-            <label for="username">Benutzername:</label>
-            <input type="text" id="username" name="username" placeholder="Benutzername" required>
-
-            <label for="password">Passwort:</label>
-            <input type="password" id="password" name="password" placeholder="Passwort" required>
-            <div class="submit">
-
-            <input type="submit" id="button" value="Regestrieren">
-            </div>
-        </form>
+      </form>
     </div>
-    </main>
+  </main>
 </body>
 </html>

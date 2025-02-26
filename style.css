@@ -53,86 +53,34 @@ hr {margin: 10px 0;
   padding: 2px 0;
   }
 
-#LoginBtn {padding: 4px 8px;
-                  background-color: var(--footer-color);
-                  border: solid black 2px;
-                  border-radius: 4px;
-                  float: right;
-              }
-
-a {text-decoration: none;
-  color: rgb(90, 89, 89);
-  }
-
-#loginLink {color: white;}
-
-#registrierenLink {color: gray;}
-
-.container {
-  width: 70%;
-  min-width: 50%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+#LoginBtn {
+  border-radius: 8px;
+  border: solid var(--footer-color); 
+  padding-top: 4px;
+  padding-bottom: 4px; 
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  float: right;
+  margin-right: 16px;
 }
 
-.kanban-heading {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: sans-serif;
+#LoginBtn:hover{
+  transition: all 0.2s; 
+  background-color: var(--header-color);
+  border: solid var(--background-color);
 }
 
-.kanban-heading-text {
-  font-size: 1.8rem;
-  background-color:var(--footer-color);
-  padding: 0.8rem 1.7rem;
-  border-radius: 0.5rem;
-  margin: 1rem;
-}
-.kanban-board {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: sans-serif;
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-.kanban-block {
-  padding: 0.6rem;
-  width: 30.5%;
-  min-width: 14rem;
-  min-height: 4.5rem;
-  border-radius: 0.3rem;
+#loginLink {
+  color: rgb(0, 0, 0);
 }
 
-.kanban-board {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: sans-serif;
-}
 
-.kanban-block {
-  padding: 0.6rem;
-  width: 30.5%;
-  min-width: 14rem;
-  min-height: 4.5rem;
-  border-radius: 0.3rem;
+#registrierenLink {
+  color: rgb(0, 0, 0);
 }
-
-#unbearbeitet {
-  background-color: var(--fillin-color);
-}
-
-#inbearbeitung {
-  background-color: var(--fillin-color);
-}
-
-#bearbeitet {
-  background-color: var(--fillin-color);
-}
-
-#pausiert {
-  background-color: var(--fillin-color);
-}
-
