@@ -1,10 +1,12 @@
-:root { --background-color: #f0ece2;
+:root {
+  --background-color: #f0ece2;
   --header-color: #c7b198;
-  --footer-color:#596e79;
+  --footer-color: #596e79;
   --fillin-color: #dfd3c3;
 }
 
-body { height: 100vh;
+body {
+  height: 100vh;
   background-color: var(--background-color);
   margin: 0;
   display: flex;
@@ -14,24 +16,29 @@ body { height: 100vh;
 }
 
 header {background-color: var(--header-color);
-    padding: 20px 50px;
-    display: flex;
-   justify-content: space-between; /*Dinger auseinander*/
-   align-items: center; /*Objekte Mittig*/
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
+  padding: 20px 50px;
+  display: flex;
+ justify-content: space-between; /*Dinger auseinander*/
+ align-items: center; /*Objekte Mittig*/
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
-footer { background-color: var(--footer-color);
-   padding: 50px;
-
+footer {
+  background-color: var(--footer-color);
+  padding: 10px;
+  display: flex;
+  justify-content: left;
 }
 
-main {display: flex;
-       flex-direction: column;
-        padding: 50px;
-      }
-.Info {display: flex;
-      }
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.Info {
+  display: flex;
+}
 
 .logo-container {
   height: 200px;
@@ -39,26 +46,38 @@ main {display: flex;
 
 .Impressum {
   color: var(--fillin-color);
+  font-size: large;
+  margin-left: 20px;
+}
+
+.impressum-text {
+  margin-left: 20px;
 }
 
 
-#Logo {height: 200px;
-          width: 150px;
-          float: left;
-         margin-right: 10px;}
+#Logo {height: 60px;
+  width: 90px;
+  float: left;
+ margin-right: 10px;}
 
 
-#LoginBtn {padding: 4px 8px;
-                  background-color: var(--footer-color);
-                  border: solid black 2px;
-                  border-radius: 4px;
-                  float: right;
-              }
+#LoginBtn {
+  padding: 4px 8px;
+  background-color: var(--footer-color);
+  border: solid black 2px;
+  border-radius: 4px;
+  float: right;
+}
 
-a {text-decoration: none;
+a {
+  text-decoration: none;
   color: rgb(90, 89, 89);
-  }
+}
 
-#loginLink {color: white;}
+#loginLink {
+  color: white;
+}
 
-#registrierenLink {color: gray;}
+#registrierenLink {
+  color: gray;
+}
