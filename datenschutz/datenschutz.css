@@ -1,24 +1,56 @@
 :root { --background-color: #f0ece2;
-    --header-color: #c7b198;
-    --footer-color:#596e79;
-    --fillin-color: #dfd3c3;
+  --header-color: #c7b198;
+  --footer-color:#596e79;
+  --fillin-color: #dfd3c3;
 }
+
 body { height: 100vh;
-    background-color: var(--background-color);
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+  background-color: var(--background-color);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 header {background-color: var(--header-color);
-      padding: 10px;
-      display: flex;
-
+    padding: 20px 50px;
+    display: flex;
+   justify-content: space-between; /*Dinger auseinander*/
+   align-items: center; /*Objekte Mittig*/
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 footer { background-color: var(--footer-color);
-     padding: 50px;
+   padding: 50px;
 
 }
+
+main {display: flex;
+       flex-direction: column;
+        padding: 50px;
+      }
+.Info {display: flex;
+      }
+
+
+#Logo {height: 60px;
+          width: 90px;
+          float: left;
+         margin-right: 10px;}
+
+
+#LoginBtn {padding: 4px 8px;
+                  background-color: var(--footer-color);
+                  border: solid black 2px;
+                  border-radius: 4px;
+                  float: right;
+              }
+
+a {text-decoration: none;
+  color: rgb(90, 89, 89);
+  }
+
+#loginLink {color: white;}
+
+#registrierenLink {color: gray;}
