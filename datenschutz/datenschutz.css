@@ -48,6 +48,12 @@ main {
 
 .Impressum {
   color: var(--fillin-color);
+  font-size: large;
+  margin-left: 20px;
+}
+
+.impressum-text {
+  margin-left: 20px;
 }
 
 
