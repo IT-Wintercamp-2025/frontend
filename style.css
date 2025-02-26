@@ -67,3 +67,72 @@ a {text-decoration: none;
 #loginLink {color: white;}
 
 #registrierenLink {color: gray;}
+
+.container {
+  width: 70%;
+  min-width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.kanban-heading-text {
+  font-size: 1.8rem;
+  background-color:var(--footer-color);
+  padding: 0.8rem 1.7rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.kanban-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.kanban-block {
+  padding: 0.6rem;
+  width: 30.5%;
+  min-width: 14rem;
+  min-height: 4.5rem;
+  border-radius: 0.3rem;
+}
+
+.kanban-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.kanban-block {
+  padding: 0.6rem;
+  width: 30.5%;
+  min-width: 14rem;
+  min-height: 4.5rem;
+  border-radius: 0.3rem;
+}
+
+#unbearbeitet {
+  background-color: var(--fillin-color);
+}
+
+#inbearbeitung {
+  background-color: var(--fillin-color);
+}
+
+#bearbeitet {
+  background-color: var(--fillin-color);
+}
+
+#pausiert {
+  background-color: var(--fillin-color);
+}
+
