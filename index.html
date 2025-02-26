@@ -7,50 +7,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
     <title>Ticketsystem</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header>
-        <img src="./Logos/Logo_shadow.png" alt="Logo" class="Logo">
+        <img src="./inamges/Logo_shadow.png" alt="Logo" id="Logo">
         <h1 id="TS">Ticketsystem</h1>
+        <button id="LoginBtn"><a href="./login-page/LogIn.html" target="_blank" id="loginLink">Login</a></button>
     </header>
 
     <main>
+    <div class="Info">
     <div class="Vorstellung">
         <h1>Ticketsystem des IT-Wintercamps</h1>
-        <h3>Willkommen im Support-Bereich! Wir sind hier, um Ihnen zu helfen.</h3>
-        <p>Um Ihre <strong>Anfragen und Tickets</strong> zu verwalten, melden Sie sich bitte
-        zuerst an oder registrieren Sie sich. Nach dem Login gelangen Sie zu einer übersichtlichen
-        Ansicht Ihrer bisherigen Tickets, wo Sie den Status Ihrer Anfragen einsehen können. Zudem
-        haben Sie jederzeit die Möglichkeit, neue Tickets zu erstellen und uns direkt Ihre Anliegen
-        mitzuteilen. Unser Team steht bereit, Ihnen schnell und zuverlässig zu helfen.</p>
+        <hr>
+        <h3>Support-Bereich – Wir helfen Ihnen gerne!</h3>
+        <p><strong>Anfragen und Tickets verwalten:</strong> Bitte melden Sie sich an oder registrieren Sie sich. 
+        Nach dem Login sehen Sie eine Übersicht Ihrer Tickets, können den Status prüfen und neue Tickets erstellen. Unser Team unterstützt Sie schnell und zuverlässig.</p>
     </div>
-    <div class="Funktionen" type="Funktionen">
-        <h3>So funktioniert es</h3>
+    <div class="Funktionen">
+        <h1>So funktioniert es</h1>
+        <hr>
         <div class="Funktion">
-            <h3><strong>Erstellen Sie ein Ticket:</strong></h3>
-            <p>Um Hilfe zu erhalten, müssen Sie zunächst ein Ticket erstellen. Geben Sie dazu einfach<br>
-            Ihr Anliegen ein und schildern Sie das Problem so genau wie möglich.</p><br>
-        </div>
-        <div class="Funktion">
-            <h3><strong>Ticket an unser Team:</strong></h3>
-            <p>Sobald Sie Ihr Ticket abgeschickt haben, wird es direkt an unser Support-Team weitergeleitet.<br>
-            Unser Team prüft Ihr Anliegen und sorgt dafür, dass Sie schnellstmöglich eine Lösung erhalten.</p><br>
-        </div>
-        <div class="Funktion">
-            <h3><strong>Verfolgen Sie den Status:</strong></h3>
-            <p>In Ihrer Übersicht können Sie den Status Ihrer Tickets jederzeit einsehen -<br> 
-            von der Bearbeitung bis zur Lösung. So wissen Sie immer, wo sich Ihr Anliegen gerade befindet.</p>
-        </div>
-        <div class="Funktion">
-            <h3><strong>Antworten und Lösungen:</strong></h3>
-            <p>Sobald unser Team eine Antwort hat, informieren wir Sie direkt über den aktuellen Stand.<br>
-            Wenn weitere Informationen nötig sind, können Sie jederzeit auf das Ticket antworten.</p>
+            <p><strong>Ticket erstellen:</strong> Schildern Sie Ihr Anliegen und Problem detailliert im Ticket-Formular.</p>
+            <p><strong>Bearbeitung durch Team:</strong> Ihr Ticket wird sofort an den Support weitergeleitet und priorisiert bearbeitet.</p>
+            <p><strong>Status verfolgen:</strong> Prüfen Sie jederzeit den Bearbeitungsfortschritt in Ihrer Übersicht.</p>
+            <p><strong>Direkte Kommunikation:</strong> Erhalten Sie Updates per Benachrichtigung und antworten Sie bei Rückfragen direkt im Ticket.</p>
         </div>
     </div>
+    </div>
+    <div class="Login">
+        <h1>Bereits registriert?</h1>
+        <hr>
+        <p>Loggen Sie sich ein, um auf Ihre Tickets zuzugreifen.<button id="LoginBtn"><a href="./login-page/LogIn.html" target="_blank" id="loginLink">Login</a></button> </p>
+        <p id="registrierenLink">Noch kein Konto? <a href="#">Registrieren</a></p>
+   </div>
     </main>
 
     <footer>
