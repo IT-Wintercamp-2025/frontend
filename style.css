@@ -21,11 +21,6 @@ header {background-color: var(--header-color);
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
-footer { background-color: var(--footer-color);
-   padding: 50px;
-
-}
-
 main {display: flex;
        flex-direction: column;
         padding: 50px;
@@ -84,3 +79,19 @@ a {
 #registrierenLink {
   color: rgb(0, 0, 0);
 }
+/*footer*/ 
+.footer {background-color: var(--footer-color);
+color: var(--background-color);
+padding: 10px};
+
+.info, .copyright, #Kontakt, #copyright, .adress, #adress {margin: 10px;}
+
+ .flexbox {display: flex;
+                justify-content: space-between;
+               }      
+
+#Logo2 {height: 60px;
+                width: 90px;
+                float: left;
+               margin-right: 10px;
+              }
