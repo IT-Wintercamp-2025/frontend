@@ -31,15 +31,15 @@ body {
 }
 
 header {
-    background-color: var(--header-color);
-    padding: 20px 50px;
-    display: flex;
-    justify-content: space-between;
-    /*Dinger auseinander*/
-    align-items: center;
-    /*Objekte Mittig*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
-  }
+  background-color: var(--header-color);
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  /*Dinger auseinander*/
+  align-items: center;
+  /*Objekte Mittig*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
+}
 
 footer {
   background-color: var(--footer-color);
@@ -100,58 +100,70 @@ a {
 }
 
 /*Dropdown*/
-body {height: 100vh;
+body {
+  height: 100vh;
   margin: 0;
 }
 
-nav {overflow: hidden;
-background-color: gray;
-padding: 10px;
+nav {
+  overflow: hidden;
+  background-color: var(--footer-color);
+  border-radius: 8px;
 }
 
-#a {float: left; /*allign left*/
-font-size: 16px;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;}
-
-.dropdown {overflow: hidden;} /*overflow controls what happens to content that is too big to fit into an area.*/
-
-.dropdown .dropBtn {font-size: 16px;
-                          outline: none; /*outline, line around the border*/
-                          border: none;
-                          color: white;
-                          padding: 14px 16px;
-                          background-color: inherit;
-                          font-family: inherit;
-                          margin: 0;
+#a {
+  float: left; /*allign left*/
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 8px 30px;
+  text-decoration: none;
 }
 
-#a:hover .dropdown:hover .dropBtn {background-color: brown;}
+.dropdown {
+  overflow: hidden;
+}
+
+/*overflow controls what happens to content that is too big to fit into an area.*/
+
+.dropdown .dropBtn {
+  font-size: 16px;
+  outline: none; /*outline, line around the border*/
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+#a:hover .dropdown:hover .dropBtn {
+  background-color: brown;
+}
 
 .dropdown-content {
-display: none;
-position: absolute;
-background-color: rgba(128, 128, 128, 0.379);
-border: solid black 2px;
-min-width: 160px; /*minimum width*/
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1; /*specifies the stack order of an element*/
+  display: none;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.379);
+  border: solid black 2px;
+  min-width: 10px; /*minimum width*/
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; /*specifies the stack order of an element*/
 }
 
 .dropdown-content a {
-float: none; /*float: none;*/
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-text-align: left;
+  float: none; /*float: none;*/
+  color: black;
+  padding: 0px 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .dropdown-content #a:hover {
-background-color: rgba(128, 128, 128, 0.512);
+  background-color: rgba(128, 128, 128, 0.512);
 }
+
 .dropdown:hover .dropdown-content {
-display: block;
+  display: block;
 }
