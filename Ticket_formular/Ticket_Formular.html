@@ -9,15 +9,21 @@
 </head>
 
 <body>
-    <h1>Neues Ticket verfassen</h1> <br>
-    <label for="Gruppe">Gruppe:</label>
+    <header>
+        <img src="/Images/Logo_no_shado.png" alt="Logo" id="Logo">
+        <h1>Neues Ticket verfassen</h1> <br>
+    </header>
+    <div class="container">
 
-    <select name="Gruppe" id="Gruppe">
-        <option value="Frontend">Frontend</option>
-        <option value="Backend">Backend</option>
-        <option value="Infrastruktur">Infrastruktur</option>
-    </select>
-    <h2>Betreff</h2>
+
+        <label for="Gruppe">Gruppe:</label>
+
+        <select name="Gruppe" class="Gruppe">
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Infrastruktur">Infrastruktur</option>
+        </select>
+        <h3>Betreff</h3>
 
     <form action="/Ticket_Uebersicht.html">
         <input type="text" id="betreff" name="betreff">

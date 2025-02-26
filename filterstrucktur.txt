@@ -1,0 +1,11 @@
+Filter-/Sortierungsstrucktur
+ Neu: (Filter, das man nur Neue Tickets auf dem Dashbord sortiert aufgelistet sieht)
+   Erstelldatum (sortiert Tickets von ältesten zum neusten)
+   Ablaufdatum (sortiert Tickets von kleinsten Sprint zum größten)
+   Priorität (sortiert Tickets von höchster zu niedrichster Prio)
+ Bearbeitung: (Filter, das man nur Tickets in Bearbeitung auf dem Dashbord sortiert aufgelistet sieht)
+   Erstelldatum (sortiert Tickets von ältesten zum neusten)
+   Ablaufdatum (sortiert Tickets von kleinsten Sprint zum größten)
+   Priorität (sortiert Tickets von höchster zu niedrichster Prio)
+Beendet: (Filter, das man nur abgeschlossene Tickets auf dem Dashbord sortiert aufgelistet sieht)
+   Suchfeld

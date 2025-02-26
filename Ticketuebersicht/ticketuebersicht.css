@@ -31,15 +31,15 @@ body {
 }
 
 header {
-  background-color: var(--header-color);
-  padding: 20px 50px;
-  display: flex;
-  justify-content: space-between;
-  /*Dinger auseinander*/
-  align-items: center;
-  /*Objekte Mittig*/
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
-}
+    background-color: var(--header-color);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    /*Dinger auseinander*/
+    align-items: center;
+    /*Objekte Mittig*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
+  }
 
 footer {
   background-color: var(--footer-color);
@@ -94,7 +94,7 @@ a {
 
 #unbearbeitet,
 #inbearbeitung,
-#bearbeitet,
-#pausiert {
+#bearbeitet {
   background-color: var(--fillin-color);
+  border: 0.1rem solid var(--header-color);
 }
