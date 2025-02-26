@@ -1,0 +1,70 @@
+:root{
+    --background-color: #dfd3c3;
+    --login-color:  #596e79;
+}
+
+
+/* Container für die gesamte Seite */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+/* Login Box */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black; 
+    background-color: var(--login-color);
+    color: white;
+}
+
+#username{
+    margin: 8px;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+}
+
+#password{
+    border-radius: 8px;
+    border: none;
+    margin: 8px;
+    margin-left: 43px;
+    padding: 6px;
+}
+
+#button{
+  border-radius: 8px;
+  border: none; 
+  padding-top: 2px;
+  padding-bottom: 2px; 
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#button:hover{
+    transition: all 0.2s;
+    background-color: var(--login-color);
+    color: white;
+}
+
+.submit{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.titel{
+    display: flex;
+    justify-content: center;
+}
+
