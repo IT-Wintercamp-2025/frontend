@@ -20,7 +20,7 @@ html, body {
     padding: 20px;
     border: none;
     border-radius: 8px;
-   /box-shadow: 0 4px 8px black; 
+    box-shadow: 0 4px 8px black; 
     background-color: var(--login-color);
     color: white;
 }
