@@ -9,17 +9,9 @@
 
 <body>
     <h1>Neues Ticket verfassen</h1> <br>
-    <label for="Kategorie">Kategorie:</label>
-
-    <select name="Kategorie" id="Kategorie">
-        <option value="Softwarefehler">Softwarefehler</option>
-        <option value="Hardwarefehler">Hardwarefehler</option>
-        <option value="Störung">Störung</option>
-
-    </select>
     <label for="Gruppe">Gruppe:</label>
 
-    <select name="Gruppe" id="Guppe">
+    <select name="Gruppe" id="Gruppe">
         <option value="Frontend">Frontend</option>
         <option value="Backend">Backend</option>
         <option value="Infrastruktur">Infrastruktur</option>
@@ -27,9 +19,8 @@
     <h2>Betreff</h2>
 
     <form action="/action_page.php">
-        <input type="text" id="fname" name="fname">
-
-        <p><label for="Beschreibun">Beschreibung:</label></p>
+        <input type="text" id="betreff" name="betreff">
+        <p><label for="Beschreibung">Beschreibung:</label></p>
         <textarea id="Beschreibung" name="Bescheibung" rows="4" cols="40"></textarea> <br>
         <button type="submit">Absenden</button>
     </form>
