@@ -37,8 +37,7 @@ html, body {
 #password{
     border-radius: 8px;
     border: none;
-    margin: 0px;
-    margin-left: 117px;
+    margin-left: 43px;
     padding: 6px;
 }
 
@@ -50,13 +49,13 @@ html, body {
   cursor: pointer;
   padding-left: 16px;
   padding-right: 16px;
+  border: solid var(--border-color);
 }
 
 
 #button:hover{
     transition: all 0.2s; 
     background-color: var(--login-color);
-    color: var(--background-color);
 }
 
 .submit{
@@ -72,6 +71,5 @@ html, body {
     justify-content: center;
 }
 
-#passworttext {margin-top: 500px;}
 
 
