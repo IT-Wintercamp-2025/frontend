@@ -1,6 +1,7 @@
 :root{
-    --background-color: #dfd3c3;
-    --login-color:  #596e79;
+    --background-color: hsl(43, 32%, 91%);
+    --border-color:  #596e79;
+    --login-color:  #c7b198;
 }
 
 
@@ -12,21 +13,22 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Login Box */
 .login-container {
     width: 300px;
     padding: 20px;
-    border: none;
+    border: solid var(--border-color) 4px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px black; 
+    box-shadow: 0 4px 16px black; 
     background-color: var(--login-color);
-    color: white;
+    color: black;
 }
 
 #username{
-    margin: 8px;
+    margin: 4px;
     border-radius: 8px;
     border: none;
     padding: 6px;
@@ -35,7 +37,7 @@ html, body {
 #password{
     border-radius: 8px;
     border: none;
-    margin: 8px;
+    margin: 4px;
     margin-left: 43px;
     padding: 6px;
 }
@@ -43,21 +45,23 @@ html, body {
 #button{
   border-radius: 8px;
   border: none; 
-  padding-top: 2px;
-  padding-bottom: 2px; 
+  padding-top: 4px;
+  padding-bottom: 4px; 
   cursor: pointer;
   padding-left: 16px;
   padding-right: 16px;
+
 }
 
 #button:hover{
-    transition: all 0.2s;
+    transition: all 0.2s; 
     background-color: var(--login-color);
-    color: white;
+    color: var(--background-color);
 }
 
 .submit{
-    margin-top: 8px;
+    margin-top: 16px;
+    margin-bottom: -4px;
     display: flex;
     justify-content: center;
 }
