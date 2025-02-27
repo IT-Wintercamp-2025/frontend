@@ -1,11 +1,10 @@
-:root {
-    --background-color: #f0ece2;
+:root { --background-color: #f0ece2;
     --header-color: #c7b198;
-    --footer-color: #596e79;
+    --footer-color:#596e79;
     --fillin-color: #dfd3c3;
-}
-
-body {
+  }
+  
+body { 
     height: 100vh;
     background-color: var(--background-color);
     margin: 0;
@@ -23,51 +22,51 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
-#Logo {
-    height: 60px;
+#Logo {height: 60px;
     width: 90px;
     float: left;
-    margin-right: 10px;
-}
+   margin-right: 10px;}
 
 .container {
+    display: flex;
+    justify-content: left;
     margin-left: 30px;
     margin-top: 30px;
 }
 
-#Gruppe {
+.Gruppe{
     margin: 8px;
     color: black;
     background-color: white;
     border-radius: 8px;
     padding: 4px;
     cursor: pointer;
-    border: solid var(--footer-color);
+    border: solid var(--footer-color) ;
 }
 
-#Gruppe:hover {
+.Gruppe:hover{
     transition: all 0.2s;
     background-color: var(--header-color);
 }
 
-#betreff {
+#betreff{
     margin: 2px;
     color: black;
     background-color: white;
     border-radius: 8px;
     padding: 4px;
     cursor: pointer;
-    border: solid var(--footer-color);
+    border: solid var(--footer-color) ;
 }
 
-#Beschreibung {
+#Beschreibung{
     margin: 4px;
     color: black;
     background-color: white;
     border-radius: 8px;
     padding: 4px;
     cursor: pointer;
-    border: solid var(--footer-color);
+    border: solid var(--footer-color) ;
 }
 
 button {
@@ -88,7 +87,20 @@ button:hover {
     color: white;
 }
 
+.Formular_Beschreibung{
+    display: flex;
+    justify-content: right;
+}
 
+.erklär{
+    background-color: var(--fillin-color);
+    border-radius: 8px;
+    border: solid var(--footer-color) 4px;
+    margin-right: 16px;
+    margin-left: 8px;
+    padding-left: 16px;
+    padding-right: 8px;
+}
 
 
 footer {
