@@ -1,9 +1,10 @@
 # frontend
-The website and interface
-Hier entsteht das Frontend für ein Ticketsystem.
-Test Test Juhu
+Hier entsteht die Frontend Webseite für ein Ticketsystem.
+--------------------------------------------------------
+Colors:
 
-    #dfd3c3;
-    #c7b198;
-    #596e79;
+  --background-color: #f0ece2;
+  --header-color: #c7b198;
+  --footer-color:#596e79;
+  --fillin-color: #dfd3c3;
 
