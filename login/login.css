@@ -39,6 +39,7 @@ html, body {
     border: none;
     margin-left: 43px;
     padding: 6px;
+    margin-top: 16px;
 }
 
 #button{
@@ -71,5 +72,12 @@ html, body {
     justify-content: center;
 }
 
+#passwordw{
+    margin-top: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 43px;
+    padding: 6px;
+}
 
 
