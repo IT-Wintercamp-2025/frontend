@@ -43,20 +43,20 @@ html, body {
 }
 
 #button{
-  border-radius: 8px;
-  border: none; 
-  padding-top: 4px;
-  padding-bottom: 4px; 
-  cursor: pointer;
-  padding-left: 16px;
-  padding-right: 16px;
+    border-radius: 8px;
+    border: none; 
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: solid var(--border-color);
 
 }
 
 #button:hover{
     transition: all 0.2s; 
     background-color: var(--login-color);
-    color: var(--background-color);
 }
 
 .submit{
