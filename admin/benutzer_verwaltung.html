@@ -10,7 +10,10 @@
     <header>
         <h2>Benutzerliste</h2>
     </header>
-    
+    <form method="get" action="/">
+        <input type="text" name="search" value="{{ search_query }}" placeholder="Suchen...">
+        <input type="submit" value="Suchen">
+    </form>
     <table>
         <thead>
             <tr>
