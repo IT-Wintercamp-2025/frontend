@@ -95,3 +95,19 @@ h2 {
 #button{
     margin-top: 16px;
 }
+
+.SuchenKnopfen
+{
+    margin: 2px;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+}
+
+.searchBar
+{
+    margin: 2px;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+}
