@@ -17,7 +17,7 @@
     <div class="container">
         <form action="{{ url_for ('ticket_hinzufuegen') }}" method="POST">
             <label for="Gruppe">Gruppe:</label>
-            <select name="Gruppe" id="Gruppe"> <!-- Name-Attribut korrekt setzen -->
+            <select name="Gruppe" id="Gruppe"> <!-- Name-Attribut korrekt setzen --> 
                 <option value="Frontend">Frontend</option>
                 <option value="Backend">Backend</option>
                 <option value="Infrastruktur">Infrastruktur</option>
@@ -31,7 +31,16 @@
             
             <button type="submit">Absenden</button>
         </form>
-    </div>
+    </div> 
+<div class="Formular_Beschreibung">
+    <p><h4>Im Dropdown-Menü "Gruppe" kannst du auswählen, welches Team für dein Anliegen eine Lösung haben könnte.</h4> </p>
+    <br>
+    <p><h4>Im Betreff kannst du kurz das Problem zusammenfassen.</h4></p> <br>
+    <p><h4>Über die Beschreibung ist ein ausführliches Erläutern des Problems möglich.</h4></p>
+    <br> 
+    <p><h4>Über den "Absenden" Button kannst du dein fertiges Ticket abschicken.</h4></p>
+
+</div>
 </body>
 
 </html>
