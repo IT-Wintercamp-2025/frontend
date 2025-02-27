@@ -8,6 +8,14 @@
   --footer-color:#596e79;
   --fillin-color: #dfd3c3;
 ```
+### New Colors for tomorrow:
+  --Color_1: #b8abfa;
+  --Color-2: #e783fc;
+  --color-3: #7358fa;
+  --color-4: #a857fa;
+  --color-5: #7e92fc;
+
+
 --------------------------------------------------------
 ### File-structure:
 1. Startseite
