@@ -14,4 +14,16 @@
 2. Login and Registriation
 3. Ticket overview
 4. Write A Ticket
-(Admin Ticket view)
+5. (Admin Ticket view)
+--------------------------------------------------------
+### HTML Structure:
+```
+<header>
+  <nav>
+  </nav>
+</header>
+<main>
+</main>
+<footer>
+<footer> 
+```
