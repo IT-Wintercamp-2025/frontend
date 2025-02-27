@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eigenes Ticket einsehen und beareiten</title>
+    <link href="ticket.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Ticket Details</h1>
+    <header>
+        <h1>Ticket Details</h1>
+    </header>
+    <div class="ticket_einsicht">
     <table border="1">
         <thead>
             <tr>
@@ -36,11 +40,15 @@
     <h2>Bearbeiten</h2>
     <form action="{{ url_for ('ticket_bearbeiten') }}" method="POST">
         <label for="betreff_e">Betreff:</label><br>
-        <input type="text" id="betreff_e" name="betreff_e" value="{{ neu }}"><br>
+        <input type="text" id="betreff" name="betreff_e" value="{{ neu }}"><br>
         <label for="beschreibung_e">Beschreibung:</label><br>
-        <input type="text" id="beschreibung_e" name="beschreibung_e" value="{{ neu2 }}"><br><br>
-        <input type="submit" value="aktualisieren">
+        <input type="text" id="Beschreibung" name="beschreibung_e" value="{{ neu2 }}"><br><br>
+        <button type="submit"> Aktualisieren</button>
       </form> 
+    </div>
+      <footer>
+
+      </footer>
 
 </body>
 </html>
