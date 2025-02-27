@@ -35,6 +35,19 @@
             <div class="kanban-block" id="unbearbeitet">
                 <strong>Tickets</strong>
                 <table>
+                       <thead>
+                            <tr>
+                                <th>Ticket ID</th>
+                                <th>Betreff</th>
+                                <th>Benutzername</th>
+                                <th>Beschreibung</th>
+                                <th>Status</th>
+                                <th>Prio</th>
+                                <th>Team</th>
+                                <th>Erstelldatum</th>
+                                <th>Sprint</th>
+                            </tr>
+                        </thead>
                     <tr>
                     <td>{{ myresults[0] }}</td>
                     <td>{{ myresults[1] }}</td>
@@ -56,7 +69,7 @@
             <button type="button"><a href="./Ticket_formular/Ticket_Formular.html" target="_blank">Neues Ticket erstellen</a></button>
         </div>
     </div>
-    
+
     <footer class="footer"> <!--footer section (copyright etc.)-->
         <div class="flexbox">
         <div class="info" style="font-weight: 900;">
