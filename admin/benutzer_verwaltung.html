@@ -4,32 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benutzerliste</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        button {
-            padding: 5px 10px;
-            margin: 5px;
-        }
-    </style>
+    <link href="./admin.css" rel="stylesheet">
 </head>
 <body>
-    <h2>Benutzerliste</h2>
+    <header>
+        <h2>Benutzerliste</h2>
+    </header>
+    
     <table>
         <thead>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Email</th>
                 <th>Zugeteiltes Team</th>
                 <th>Rolle</th>
                 <th>Aktionen</th>
@@ -48,21 +34,25 @@
                     {% if myresults[6] == 0 or myresults[6] is none %}
                         <form action="{{ url_for('benutzer_sperren') }}" method="POST">
                             <input type="hidden" name="user_id" value="{{ myresults[0] }}">
-                            <input type="submit" value="Sperren">
+                            <input id="button" type="submit" value="Sperren">
                         </form>
                     {% else %}
                         <form action="{{ url_for('benutzer_entsperren') }}" method="POST">
                             <input type="hidden" name="user_id" value="{{ myresults[0] }}">
-                            <input type="submit" value="Entsperren">
+                            <input id="button" type="submit" value="Entsperren">
                         </form>
                     {% endif %}
                     <form action="{{ url_for ('benutzer_bearbeiten') }}" method="POST">
                         <input type="hidden" name="user_id" value="{{ myresults[0] }}">
-                        <input type="submit" value="Bearbeiten">
+                        <input id="button" type="submit" value="Bearbeiten">
                 </td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
+
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>
