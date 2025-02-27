@@ -35,6 +35,19 @@
             <div class="kanban-block" id="unbearbeitet">
                 <strong>Tickets</strong>
                 <table>
+                       <thead>
+                            <tr>
+                                <th>Ticket ID</th>
+                                <th>Betreff</th>
+                                <th>Benutzername</th>
+                                <th>Beschreibung</th>
+                                <th>Status</th>
+                                <th>Prio</th>
+                                <th>Team</th>
+                                <th>Erstelldatum</th>
+                                <th>Sprint</th>
+                            </tr>
+                        </thead>
                     <tr>
                     <td>{{ myresults[0] }}</td>
                     <td>{{ myresults[1] }}</td>
@@ -56,7 +69,7 @@
             <button type="button"><a href="./Ticket_formular/Ticket_Formular.html" target="_blank">Neues Ticket erstellen</a></button>
         </div>
     </div>
-    
+
     <footer class="footer"> <!--footer section (copyright etc.)-->
         <div class="flexbox">
         <div class="info" style="font-weight: 900;">
@@ -64,7 +77,7 @@
                 <div id="Kontakt"><a id="Kontakt-Link" href="mailto:schule@30-os.de" style="font-weight: 100;">info@communardo.de</a></div>
                 <div id="Kontakt"><a id="Kontakt-Link" href="tel:0351 8043286" style="font-weight: 100;"> +49 35185033-0</a></div>
         </div>
-        <img id="Logo2" src="./Images/Logo_shadow.png" alt="Ticket logo">
+        <img id="Logo2" src="../Images/Logo_shadow.png" alt="Ticket logo">
         <div class="adress">
             <div id="adress" style="font-weight: 900;">Communardo GmbH</div>
             <div id="adress" style="font-weight: 100;">Kleiststraße 10a</div>
