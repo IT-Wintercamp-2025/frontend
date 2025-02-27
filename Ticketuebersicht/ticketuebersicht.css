@@ -169,3 +169,26 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.ticketbutton {
+  padding: 10px;
+  width: 15%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
+  cursor: pointer;
+  background-color: var(--fillin-color);
+  border: 0.1rem solid var(--header-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.ticketbutton:hover {
+  background-color: var(--background-color);
+
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+}
