@@ -97,7 +97,7 @@ button:hover {
     border-radius: 8px;
     border: solid var(--footer-color) 4px;
     margin-right: 16px;
-    margin-left: 8px;
+    margin-left: 24px;
     padding-left: 16px;
     padding-right: 8px;
 }
