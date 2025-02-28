@@ -11,6 +11,7 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
 html, body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -28,11 +29,28 @@ header {
 }
 
 .header-container {
+=======
+header {background-color: var(--header-color);
+  padding: 20px 50px;
+  display: flex;
+ justify-content: space-between; /*Dinger auseinander*/
+ align-items: center; /*Objekte Mittig*/
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
+}
+
+footer {
+  background-color: var(--footer-color);
+  padding: 50px;
+}
+
+main {
+>>>>>>> d4f38cd29d14bf3df2c90084c7afb090551fbdc4
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
+<<<<<<< HEAD
 #Logo {
   height: 80px;
   width: auto;
@@ -40,6 +58,60 @@ header {
 
 header h1 {
   font-size: 2rem;
+=======
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.Info {
+  display: flex;
+}
+
+.logo-container {
+  height: 200px;
+}
+
+.Impressum {
+  color: var(--fillin-color);
+  font-size: large;
+  margin-left: 20px;
+}
+
+.impressum-text {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+#Logo {
+  height: 60px;
+  width: 90px;
+  float: left;
+  margin-right: 10px;
+}
+
+
+#LoginBtn {
+  padding: 4px 8px;
+  background-color: var(--footer-color);
+  border: solid black 2px;
+  border-radius: 4px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0;
+}
+
+#loginLink {
+>>>>>>> d4f38cd29d14bf3df2c90084c7afb090551fbdc4
   color: white;
 }
 
@@ -52,6 +124,7 @@ main {
   align-items: flex-start;
 }
 
+<<<<<<< HEAD
 .datenschutz-container {
   max-width: 800px;
   width: 100%;
@@ -105,8 +178,23 @@ footer {
 
 .footer-container img#Logo2 {
   height: 60px;
-  margin: 10px;
+=======
+/*footer*/
+.footer {
+  background-color: var(--footer-color);
+  color: var(--background-color);
+  padding: 10px;
 }
+
+/* .info,
+.copyright,
+#Kontakt,
+#copyright,
+.adress,
+#adress {
+>>>>>>> d4f38cd29d14bf3df2c90084c7afb090551fbdc4
+  margin: 10px;
+} */
 
 footer hr {
   border: 1px solid var(--background-color);
