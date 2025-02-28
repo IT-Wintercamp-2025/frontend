@@ -24,6 +24,7 @@ header {background-color: var(--header-color);
 main {display: flex;
        flex-direction: column;
         padding: 50px;
+        justify-content: space-evenly;
       }
 .Info {display: flex;
       }
@@ -36,6 +37,16 @@ main {display: flex;
                     border-radius: 8px;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
                   }
+                  .Info {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 0px; /* Abstand zwischen den Boxen */
+                }
+                
+                .Vorstellung, .Funktionen {
+                    width: 50%; /* Beide Boxen nehmen genau 50 % der Breite ein */
+                    box-sizing: border-box; /* Verhindert, dass padding die Breite überschreitet */
+                }
 
 #Logo {height: 60px;
           width: 90px;
@@ -51,11 +62,8 @@ hr {margin: 10px 0;
 #LoginBtn {
   border-radius: 8px;
   border: solid var(--footer-color); 
-  padding-top: 4px;
-  padding-bottom: 4px; 
   cursor: pointer;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 7px 16px;
   float: right;
   margin-right: 16px;
 }

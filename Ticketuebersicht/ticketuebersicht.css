@@ -5,25 +5,12 @@
   --fillin-color: #dfd3c3;
 }
 
-.container {
-  width: 70%;
-  min-width: 50%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.kanban-heading {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: sans-serif;
-}
-
-body {
+body, html {
   height: 100vh;
+  width: 100%;
   background-color: var(--background-color);
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -32,12 +19,11 @@ body {
 
 header {
   background-color: var(--header-color);
-  padding: 20px 50px;
   display: flex;
   justify-content: space-between;
-  /*Dinger auseinander*/
   align-items: center;
-  /*Objekte Mittig*/
+  padding: 20px;
+  margin: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
@@ -74,29 +60,15 @@ a {
   color: rgb(0, 0, 0);
 }
 
-.kanban-heading-text {
-  font-size: 1.8rem;
-  background-color: var(--footer-color);
-  padding: 0.8rem 1.7rem;
-  border-radius: 0.5rem;
-  margin: 1rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
-}
 
-.kanban-board {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: sans-serif;
-}
 
 .kanban-block {
-  padding: 0.6rem;
+  padding: 0.6px;
   width: 100%;
-  min-width: 14rem;
-  min-height: 4.5rem;
-  border-radius: 0.3rem;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
+  min-width: 14px;
+  min-height: 4.5px;
+  border-radius: 0.3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 #unbearbeitet,
@@ -112,39 +84,28 @@ body {
   margin: 0;
 }
 
-nav {
-  overflow: hidden;
-  background-color: var(--footer-color);
+#nTBtn {
   border-radius: 8px;
+  border: solid var(--footer-color); 
+  cursor: pointer;
+  padding: 7px 16px;
+  float: right;
+  margin-right: 16px;
 }
 
-#a {
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 8px 30px;
+#nTBtn:hover{
+  transition: all 0.2s; 
+  background-color: var(--header-color);
+  border: solid var(--background-color);
+}
+
+a {
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
-.dropdown {
-  overflow: hidden;
-}
-
-/*overflow controls what happens to content that is too big to fit into an area.*/
-
-.dropdown .dropBtn {
-  font-size: 16px;
-  outline: none; /*outline, line around the border*/
-  border: none;
-  color: white;
-  padding: 10px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-#a:hover .dropdown:hover .dropBtn {
-  background-color: brown;
+#nTLink {
+  color: rgb(0, 0, 0);
 }
 
 .dropdown-content {
@@ -152,13 +113,16 @@ nav {
   position: absolute;
   background-color: rgba(128, 128, 128, 0.379);
   border: solid black 2px;
-  min-width: 10px; /*minimum width*/
+  min-width: 10px;
+  /*minimum width*/
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1; /*specifies the stack order of an element*/
+  z-index: 1;
+  /*specifies the stack order of an element*/
 }
 
 .dropdown-content a {
-  float: none; /*float: none;*/
+  float: none;
+  /*float: none;*/
   color: black;
   padding: 0px 10px;
   text-decoration: none;
@@ -198,18 +162,69 @@ nav {
   justify-content: center;
 }
 
-.footer {background-color: var(--footer-color);
+.footer {
+  background-color: var(--footer-color);
   color: var(--background-color);
-  padding: 10px};
-  
-  .info, .copyright, #Kontakt, #copyright, .adress, #adress {margin: 10px;}
-  
-   .flexbox {display: flex;
-                  justify-content: space-between;
-                 }      
-  
-  #Logo2 {height: 60px;
-                  width: 90px;
-                  float: left;
-                 margin-right: 10px;
-                }
+  padding: 10px
+}
+
+;
+
+.info,
+.copyright,
+#Kontakt,
+#copyright,
+.adress,
+#adress {
+  margin: 10px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Logo2 {
+  height: 60px;
+  width: 90px;
+  float: left;
+  margin-right: 10px;
+}
+
+/*main*/
+.container {
+  flex: 1;
+  padding: 20px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Tabelle soll den gesamten Platz nutzen und Spalten gleich verteilen */
+.table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+th {
+  background-color: var(--header-color);
+  color: var(--background-color);
+}
