@@ -10,11 +10,11 @@
 ```
 ### New-Colors:
 ```
-  --Color_1: #b8abfa;
-  --Color-2: #e783fc;
-  --color-3: #7358fa;
-  --color-4: #7e92fc;
-  --color-5: #a857fa;
+  --color-1: #7e92fc; (hintergrund)
+  --color-2: #a857fa; (borders)
+  --color-3:rgb(83, 67, 162); (footer)
+  --color-4: #6eb2ff; (KA)
+  --Color-5: #b8abfa; (hintergrund)
 ```
 
 Stucture:
