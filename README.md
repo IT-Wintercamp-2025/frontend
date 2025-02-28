@@ -10,11 +10,12 @@ Colors:
   --fillin-color: #ffffff;
 
   
-  --Color_1: #b8abfa;
-  --Color-2: #e783fc;
+  --color-1: #7e92fc;
+  --color-2: #a857fa;
   --color-3: #7358fa;
-  --color-4: #a857fa;
-  --color-5: #7e92fc;
+  --Color-4: #e783fc;
+  --color-5: #6eb2ff;
+  --Color_6: #b8abfa;
 
 
 =======
