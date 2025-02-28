@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root { 
     --background-color: #7e92fc;
     --background-color2: #b8abfa;
@@ -5,6 +6,16 @@
     --footer-color:rgb(83, 67, 162);
     --fillin-color: white;
   }
+=======
+:root {
+    --background-color: #7e92fc;
+    --header-color: #6eb2ff;
+    --footer-color: rgb(83, 67, 162);
+    --fillin-color: white;
+    --border-color: #a857fa;
+    --background-color-2: #b8abfa;
+}
+>>>>>>> 585af8edd9ceec9ad70f22d026900c172216f78c
 
 * {
     margin: 0;
@@ -17,7 +28,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: var(--background-color);
+    background: linear-gradient( var(--background-color) var(--background-color-2));
     font-family: Arial, sans-serif;
 }
 
@@ -80,7 +91,7 @@ textarea {
     width: 100%;
     padding: 0.8rem;
     border: 2px solid var(--border-color);
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 textarea {
@@ -89,10 +100,10 @@ textarea {
 }
 
 .btn-primary {
-    padding: 0.8rem 1.5rem;
+    padding: 0.7rem 1.3rem;
     background: var(--header-color);
     border: 2px solid var(--border-color);
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
 }

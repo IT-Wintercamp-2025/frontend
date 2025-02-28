@@ -1,14 +1,15 @@
 :root {
-  --background-color: #f0ece2;
-  --header-color: #c7b198;
-  --footer-color: #596e79;
-  --fillin-color: #dfd3c3;
+  --background-color: #7e92fc; 
+  --background-color2: #b8abfa; 
+  --header-color: #6eb2ff; 
+  --footer-color: rgb(83, 67, 162);
+  --fillin-color: white; 
 }
 
 body, html {
   height: 100vh;
   width: 100%;
-  background-color: var(--background-color);
+  background: linear-gradient(var(--background-color), var(--background-color2));
   margin: 0;
   padding: 0;
   display: flex;
@@ -67,7 +68,7 @@ a {
   width: 100%;
   min-width: 14px;
   min-height: 4.5px;
-  border-radius: 0.3px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
@@ -225,6 +226,6 @@ td {
 }
 
 th {
-  background-color: var(--header-color);
-  color: var(--background-color);
+  background-color: var(--fillin-color); 
+  color: var(--background-colo);
 }
