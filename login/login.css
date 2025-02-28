@@ -1,7 +1,15 @@
 :root {
-    --background-color: hsl(43, 32%, 91%);
-    --border-color: #596e79;
-    --login-color: #c7b198;
+    
+    --background-color: #6eb2ff;
+    --header-color: #c7b198;
+    --footer-color:#7358fa;
+    ---login-color: #ffffff;
+
+    --color-1: #7e92fc;
+    --border-color: #a857fa;
+    --color-3:rgb(83, 67, 162);
+    ---background-color: #6eb2ff;
+    --Color-5: #b8abfa;
 }
 
 * {
@@ -15,16 +23,16 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
+    background: linear-gradient(var(--color-1), var(--Color-5));
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .login-container {
     width: 300px;
     padding: 1.5rem;
-    border: 4px solid var(--border-color);
+    /* border: 4px solid var(--border-color); */
     border-radius: 8px;
-    background-color: var(--login-color);
+    background-color: #a7d0ff;
 }
 
 .title {
@@ -68,7 +76,7 @@ input {
     padding: 0.5rem;
     border: 2px solid var(--border-color);
     border-radius: 4px;
-    background: white;
+    background: #ffffff;
     cursor: pointer;
     transition: background 0.2s;
 }
