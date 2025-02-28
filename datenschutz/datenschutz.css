@@ -27,6 +27,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 .header-container {
@@ -42,7 +43,7 @@ header {
 
 header h1 {
   font-size: 2rem;
-  color: white;
+  color: black; 
 }
 
 /* Main */
@@ -52,6 +53,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268);
 }
 
 .datenschutz-container {
@@ -60,7 +62,7 @@ main {
   background: #fff;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.268); 
 }
 
 .datenschutz-container h1 {
