@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-:root { 
-    --background-color: #7e92fc;
-    --background-color2: #b8abfa;
-    --header-color: #6eb2ff;
-    --footer-color:rgb(83, 67, 162);
-    --fillin-color: white;
-  }
-=======
 :root {
     --background-color: #7e92fc;
     --header-color: #6eb2ff;
@@ -15,7 +6,6 @@
     --border-color: #a857fa;
     --background-color-2: #b8abfa;
 }
->>>>>>> 585af8edd9ceec9ad70f22d026900c172216f78c
 
 * {
     margin: 0;
