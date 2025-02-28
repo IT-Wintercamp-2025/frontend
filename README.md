@@ -13,7 +13,7 @@
   --color-1: #7e92fc; (hintergrund)
   --color-2: #a857fa; (borders)
   --color-3:rgb(83, 67, 162); (footer)
-  --color-4: #6eb2ff; (KA)
+  --color-4: #6eb2ff; (Header)
   --Color-5: #b8abfa; (hintergrund)
 ```
 
