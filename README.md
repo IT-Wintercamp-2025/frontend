@@ -1,7 +1,3 @@
-![image](https://github.com/user-attachments/assets/2a3811ed-effe-4316-ba8a-8fc4daf95abc)
-
-
-
 # frontend
 ### Hier entsteht die Frontend Webseite für ein Ticketsystem.
 --------------------------------------------------------
