@@ -48,8 +48,7 @@ h1 {
 
 
 a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
+  text-decoration: none;;
 }
 
 #loginLink {
@@ -134,15 +133,7 @@ a {
   padding-right: 0px;
 }
 
-.dropdown-content #a:hover {
-  background-color: rgba(128, 128, 128, 0.512);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.ticketbutton {
+.nTButton {
   padding: 10px;
   width: 15%;
   border-radius: 1rem;
@@ -230,4 +221,20 @@ td {
 th {
   background-color: var(--fillin-color); 
   color: var(--background-colo);
+}
+
+/* New Ticket Button Styling */
+.new-ticket-btn {
+  background: var(--footer-color);
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  transition: background 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.new-ticket-btn:hover {
+  background: var(--header-color);
+  transform: translateY(-1px);
 }
